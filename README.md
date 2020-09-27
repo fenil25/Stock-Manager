@@ -1,42 +1,67 @@
 # Stock-Manager
-CodeShashtra Round-1
+
+A web-application, created using HTML, CSS, Django, Pytorch, Chart.js, Keras and NLTK, that helps to manage and track investments. The web application has many features - 
+- Buying, Selling stocks, crypto-currencies and foreign exchange with virtual money at real-time prices (using alpha-vantage API).
+- Watching and bookmarking stocks, crypto-currencies and foreign exchange to see variation in prices.
+- Gives you detailed analysis of the company and it's variation in stock prices.
+- Recent news about the company
+- A Tweety bot that lets you know what is the current word about the company on Twitter.
+- Sentiment analysis on Twitter data to know the sentiment around the company on Twitter.
+- Insights about the company using Google trends.
+- Variation in prices (intraday, as well as over a month and a year)
+- The trends in prices over a year captured by a trained recurrent neural network with LSTM units.
+- Investment tracker to help you manage your other invstments.
+
+Try out the app and all of it's awesome features.
+You can run the server with ```python manage.py runserver``` after doing all the database migrations.
+
 
 ### Screenshots:
 
-### Login
+## Login
+
 ![screenshot from 2019-03-04 00-32-48](https://user-images.githubusercontent.com/29770201/53700238-53f0bf80-3e16-11e9-9649-6a62a31be17d.png)
 
-### Register
+## Register
+
 ![screenshot from 2019-03-04 00-32-53](https://user-images.githubusercontent.com/29770201/53700239-53f0bf80-3e16-11e9-9b2f-e4074312c3c5.png)
 
-### Index page where all stocks can be searched and user get recommendations from recombee API client
+## Index page where all stocks can be searched and user get recommendations from recombee API client
+
 ![screenshot from 2019-03-04 00-33-56](https://user-images.githubusercontent.com/29770201/53700240-53f0bf80-3e16-11e9-8766-318b6ed96941.png)
 ![screenshot from 2019-03-04 00-34-07](https://user-images.githubusercontent.com/29770201/53700241-53f0bf80-3e16-11e9-8d6b-7717b5f21a12.png)
 
-### News about Stock Market
+## News about Stock Market
+
 ![screenshot from 2019-03-04 00-34-22](https://user-images.githubusercontent.com/29770201/53700242-54895600-3e16-11e9-9255-f0dd197bb47a.png)
 
-### Stocks form where you can add data about all your purchases
+## Stocks form where you can add data about all your purchases
+
 ![screenshot from 2019-03-04 00-34-49](https://user-images.githubusercontent.com/29770201/53700243-54895600-3e16-11e9-83d6-7784eb730a7a.png)
 
-### Foreign Exchange and CryptoCurrency
+## Foreign Exchange and CryptoCurrency
+
 ![screenshot from 2019-03-04 00-35-06](https://user-images.githubusercontent.com/29770201/53700244-54895600-3e16-11e9-88c2-7662a1d15f62.png)
 
-### Detail View of a company
+## Detail View of a company
+
 ![screenshot from 2019-03-04 00-35-22](https://user-images.githubusercontent.com/29770201/53700245-5521ec80-3e16-11e9-961c-e49093934edc.png)
 ![screenshot from 2019-03-04 00-35-36](https://user-images.githubusercontent.com/29770201/53700246-5521ec80-3e16-11e9-90c5-949afbc0cb89.png)
 ![screenshot from 2019-03-04 00-35-46](https://user-images.githubusercontent.com/29770201/53700247-5521ec80-3e16-11e9-9457-df33aed4e337.png)
 ![screenshot from 2019-03-04 00-36-14](https://user-images.githubusercontent.com/29770201/53700248-55ba8300-3e16-11e9-9f36-3a10cb7c1df5.png)
 ![screenshot from 2019-03-04 00-36-18](https://user-images.githubusercontent.com/29770201/53700249-55ba8300-3e16-11e9-8725-1979c5ba28f6.png)
 
-### Time Series and Future prediction
+## Time Series and Future prediction
+
 ![screenshot from 2019-03-04 00-37-29](https://user-images.githubusercontent.com/29770201/53700250-55ba8300-3e16-11e9-9e31-9f6f370fbd95.png)
 ![screenshot from 2019-03-04 00-37-33](https://user-images.githubusercontent.com/29770201/53700251-56531980-3e16-11e9-919f-c6ca6cd09f36.png)
 
-### Sentiment analysis for Amazon
+## Sentiment analysis for Amazon
+
 ![screenshot from 2019-03-04 00-37-40](https://user-images.githubusercontent.com/29770201/53700252-56531980-3e16-11e9-9398-1c5bc54b4271.png)
 
-### Google Trends for a company
+## Google Trends for a company
+
 ![screenshot from 2019-03-04 00-37-48](https://user-images.githubusercontent.com/29770201/53700253-56531980-3e16-11e9-8f51-653a11850639.png)
 
 ### SMA EMA for a company
